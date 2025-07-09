@@ -5,9 +5,7 @@ interface Citation {
   text: string;
   pdfLink: string;
   scrollToHighlight: boolean;
-  caseTitle?: string;
-  court?: string;
-  date?: string;
+  source?: string;
 }
 
 interface CitationPanelProps {
@@ -48,23 +46,6 @@ const CitationPanel: React.FC<CitationPanelProps> = ({ citation, isVisible }) =>
       </div>
       
       <div className="space-y-4">
-        {citation.caseTitle && (
-          <div className="text-sm text-gray-600">
-            <span className="font-medium">Case:</span> {citation.caseTitle}
-          </div>
-        )}
-        
-        {citation.court && (
-          <div className="text-sm text-gray-600">
-            <span className="font-medium">Court:</span> {citation.court}
-          </div>
-        )}
-        
-        {citation.date && (
-          <div className="text-sm text-gray-600">
-            <span className="font-medium">Date:</span> {citation.date}
-          </div>
-        )}
         
         <div 
           className={`p-4 bg-gray-50 rounded-lg border-l-4 border-orange-400 transition-all duration-300 ${

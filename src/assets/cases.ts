@@ -7,9 +7,7 @@ const cases: Record<string, ApiResponse> = {
       text: "The absence of a driving licence does not bar compensation under MV Act.",
       pdfLink: "https://indiankanoon.org/doc/1234567/",
       scrollToHighlight: true,
-      caseTitle: "Raj Kumar v. Ajay Kumar & Anr.",
-      court: "Supreme Court of India",
-      date: "2010"
+      source: "Raj Kumar v. Ajay Kumar & Anr."
     }
   },
   dowryDeath: {
@@ -18,9 +16,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Presumption under Section 113B of the Evidence Act is applicable.",
       pdfLink: "https://indiankanoon.org/doc/2345678/",
       scrollToHighlight: true,
-      caseTitle: "Kans Raj v. State of Punjab",
-      court: "Supreme Court of India",
-      date: "2000"
+      source: "Kans Raj v. State of Punjab"
     }
   },
   bailAnticipatory: {
@@ -29,9 +25,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Right to anticipatory bail is not absolute but can be exercised to prevent arbitrary arrest.",
       pdfLink: "https://indiankanoon.org/doc/3456789/",
       scrollToHighlight: true,
-      caseTitle: "Siddharam Satlingappa Mhetre v. State of Maharashtra",
-      court: "Supreme Court of India",
-      date: "2010"
+      source: "Siddharam Satlingappa Mhetre v. State of Maharashtra"
     }
   },
   chequeBounce: {
@@ -40,9 +34,7 @@ const cases: Record<string, ApiResponse> = {
       text: "The offence is compoundable, and compromise can be made at any stage.",
       pdfLink: "https://indiankanoon.org/doc/4567890/",
       scrollToHighlight: true,
-      caseTitle: "M/s Meters and Instruments Pvt. Ltd. v. Kanchan Mehta",
-      court: "Supreme Court of India",
-      date: "2017"
+      source: "M/s Meters and Instruments Pvt. Ltd. v. Kanchan Mehta"
     }
   },
   consumerRights: {
@@ -51,9 +43,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Consumer is entitled to fair remedy for loss or inconvenience caused.",
       pdfLink: "https://indiankanoon.org/doc/5678901/",
       scrollToHighlight: true,
-      caseTitle: "Indian Medical Assn. v. V.P. Shantha",
-      court: "Supreme Court of India",
-      date: "1995"
+      source: "Indian Medical Assn. v. V.P. Shantha"
     }
   },
   illegalArrest: {
@@ -62,9 +52,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Arrest must comply with Article 21 and CrPC provisions.",
       pdfLink: "https://indiankanoon.org/doc/6789012/",
       scrollToHighlight: true,
-      caseTitle: "DK Basu v. State of West Bengal",
-      court: "Supreme Court of India",
-      date: "1997"
+      source: "DK Basu v. State of West Bengal"
     }
   },
   workplaceHarassment: {
@@ -73,9 +61,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Vishaka guidelines laid foundation for legislative framework.",
       pdfLink: "https://indiankanoon.org/doc/7890123/",
       scrollToHighlight: true,
-      caseTitle: "Vishaka v. State of Rajasthan",
-      court: "Supreme Court of India",
-      date: "1997"
+      source: "Vishaka v. State of Rajasthan"
     }
   },
   marriageVoid: {
@@ -84,9 +70,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Second marriage without dissolution of the first is void.",
       pdfLink: "https://indiankanoon.org/doc/8901234/",
       scrollToHighlight: true,
-      caseTitle: "Yamunabai v. Anantrao",
-      court: "Supreme Court of India",
-      date: "1988"
+      source: "Yamunabai v. Anantrao"
     }
   },
   domesticViolence: {
@@ -95,9 +79,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Domestic violence includes emotional, verbal, and financial abuse.",
       pdfLink: "https://indiankanoon.org/doc/9012345/",
       scrollToHighlight: true,
-      caseTitle: "V.D. Bhanot v. Savita Bhanot",
-      court: "Supreme Court of India",
-      date: "2012"
+      source: "V.D. Bhanot v. Savita Bhanot"
     }
   },
   childCustody: {
@@ -106,9 +88,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Paramount consideration is the welfare of the minor.",
       pdfLink: "https://indiankanoon.org/doc/9123456/",
       scrollToHighlight: true,
-      caseTitle: "Gaurav Nagpal v. Sumedha Nagpal",
-      court: "Supreme Court of India",
-      date: "2009"
+      source: "Gaurav Nagpal v. Sumedha Nagpal"
     }
   },
   cyberCrime: {
@@ -117,9 +97,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Hacking, identity theft, and financial fraud are punishable.",
       pdfLink: "https://indiankanoon.org/doc/9134567/",
       scrollToHighlight: true,
-      caseTitle: "Shreya Singhal v. Union of India",
-      court: "Supreme Court of India",
-      date: "2015"
+      source: "Shreya Singhal v. Union of India"
     }
   },
   tenantEviction: {
@@ -128,9 +106,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Tenants have statutory protections against arbitrary eviction.",
       pdfLink: "https://indiankanoon.org/doc/9145678/",
       scrollToHighlight: true,
-      caseTitle: "Krishna Ram Mahale v. Shobha Venkat Rao",
-      court: "Supreme Court of India",
-      date: "1989"
+      source: "Krishna Ram Mahale v. Shobha Venkat Rao"
     }
   },
   propertyDispute: {
@@ -139,9 +115,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Possession without title is insufficient unless adverse possession is claimed.",
       pdfLink: "https://indiankanoon.org/doc/9156789/",
       scrollToHighlight: true,
-      caseTitle: "Anathula Sudhakar v. P. Buchi Reddy",
-      court: "Supreme Court of India",
-      date: "2008"
+      source: "Anathula Sudhakar v. P. Buchi Reddy"
     }
   },
   policeComplaint: {
@@ -150,9 +124,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Police is bound to register FIR if cognizable offence is disclosed.",
       pdfLink: "https://indiankanoon.org/doc/9167890/",
       scrollToHighlight: true,
-      caseTitle: "Lalita Kumari v. Government of U.P.",
-      court: "Supreme Court of India",
-      date: "2014"
+      source: "Lalita Kumari v. Government of U.P."
     }
   },
   adoptionLaw: {
@@ -161,9 +133,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Only Hindus have legal right of adoption as per personal law.",
       pdfLink: "https://indiankanoon.org/doc/9178901/",
       scrollToHighlight: true,
-      caseTitle: "Shabnam Hashmi v. Union of India",
-      court: "Supreme Court of India",
-      date: "2014"
+      source: "Shabnam Hashmi v. Union of India"
     }
   },
   freedomOfSpeech: {
@@ -172,9 +142,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Section 66A of IT Act was struck down for violating free speech.",
       pdfLink: "https://indiankanoon.org/doc/9189012/",
       scrollToHighlight: true,
-      caseTitle: "Shreya Singhal v. Union of India",
-      court: "Supreme Court of India",
-      date: "2015"
+      source: "Shreya Singhal v. Union of India"
     }
   },
   rightToEducation: {
@@ -183,9 +151,7 @@ const cases: Record<string, ApiResponse> = {
       text: "RTE Act ensures non-discriminatory access to schooling.",
       pdfLink: "https://indiankanoon.org/doc/9190123/",
       scrollToHighlight: true,
-      caseTitle: "Society for Unaided Private Schools v. Union of India",
-      court: "Supreme Court of India",
-      date: "2012"
+      source: "Society for Unaided Private Schools v. Union of India",
     }
   },
   abortionRights: {
@@ -194,9 +160,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Unmarried women are also entitled to abortion under MTP Act.",
       pdfLink: "https://indiankanoon.org/doc/9201234/",
       scrollToHighlight: true,
-      caseTitle: "X v. Principal Secretary, Health and Family Welfare Department",
-      court: "Supreme Court of India",
-      date: "2022"
+      source: "X v. Principal Secretary, Health and Family Welfare Department"
     }
   },
   liveInRelationship: {
@@ -205,9 +169,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Live-in relationship not per se illegal in India.",
       pdfLink: "https://indiankanoon.org/doc/9212345/",
       scrollToHighlight: true,
-      caseTitle: "Indra Sarma v. V.K.V. Sarma",
-      court: "Supreme Court of India",
-      date: "2013"
+      source: "Indra Sarma v. V.K.V. Sarma"
     }
   },
   tripleTalaq: {
@@ -216,9 +178,7 @@ const cases: Record<string, ApiResponse> = {
       text: "Practice violates fundamental rights under Articles 14 and 21.",
       pdfLink: "https://indiankanoon.org/doc/9223456/",
       scrollToHighlight: true,
-      caseTitle: "Shayara Bano v. Union of India",
-      court: "Supreme Court of India",
-      date: "2017"
+      source: "Shayara Bano v. Union of India"
     }
   },
   default: {
@@ -241,9 +201,7 @@ const cases: Record<string, ApiResponse> = {
       text: "",
       pdfLink: "",
       scrollToHighlight: false,
-      caseTitle: "",
-      court: "",
-      date: ""
+      source: ""
     }
   }
 

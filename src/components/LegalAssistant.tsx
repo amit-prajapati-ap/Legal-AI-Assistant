@@ -13,9 +13,7 @@ export interface ApiResponse {
         text: string;
         pdfLink: string;
         scrollToHighlight: boolean;
-        caseTitle?: string;
-        court?: string;
-        date?: string;
+        source?: string;
     };
 }
 
@@ -115,7 +113,7 @@ const LegalAssistant: React.FC = () => {
                 {response && (
                     <div className="space-y-6">
                         <AnswerDisplay answer={response.answer} isVisible={!!response} />
-                        {response.citation.caseTitle && <CitationPanel citation={response.citation} isVisible={!!response} />}
+                        {response.citation.source && <CitationPanel citation={response.citation} isVisible={!!response} />}
                     </div>
                 )}
 
