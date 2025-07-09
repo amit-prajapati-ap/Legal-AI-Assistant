@@ -83,7 +83,7 @@ const LegalAssistant: React.FC = () => {
     };
 
     return (
-        <div className="bg-gradient-to-br from-gray-50 to-blue-50 h-screen">
+        <div className="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen">
             {/* Header */}
             <header className="bg-white shadow-sm border-b border-gray-200">
                 <div className="max-w-[1500px] mx-auto px-4 py-6">
