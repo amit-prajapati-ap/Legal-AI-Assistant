@@ -8,7 +8,7 @@ A GenAI-powered legal assistant that provides AI-generated legal answers, links 
 
 ## 📸 Screen Recording
 
-![Legal AI Assistant Screen recording](https://drive.google.com/file/d/1HwaYZPRhTyJOHLdNMZYRAp_gWYS3LjoV/view?usp=sharing)
+[Legal AI Assistant Screen recording](https://drive.google.com/file/d/1HwaYZPRhTyJOHLdNMZYRAp_gWYS3LjoV/view?usp=sharing)
 
 *Screen Recording: Sample response with linked citation references.*
 
