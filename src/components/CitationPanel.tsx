@@ -84,12 +84,12 @@ const CitationPanel: React.FC<CitationPanelProps> = ({ citation, isVisible }) =>
           >
             {isOpening ? (
               <>
-                <Eye className="h-4 w-4 animate-pulse" />
+                <Eye className="h-4 w-4 animate-pulse hidden sm:block" />
                 Opening PDF...
               </>
             ) : (
               <>
-                <ExternalLink className="h-4 w-4" />
+                <ExternalLink className="h-4 w-4 hidden sm:block" />
                 Open PDF Source
               </>
             )}
@@ -97,9 +97,9 @@ const CitationPanel: React.FC<CitationPanelProps> = ({ citation, isVisible }) =>
           
           <button
             onClick={simulateHighlight}
-            className="border-orange-300 text-orange-700 hover:bg-orange-50 px-4 py-2 rounded-lg flex items-center gap-2 cursor-pointer"
+            className="border-orange-300 text-orange-700 hover:bg-orange-50 px-4 py-2 rounded-lg flex items-center gap-2 cursor-pointer max-sm:bg-yellow-400 max-sm:text-white transition-all duration-200"
           >
-            <Highlighter className="h-4 w-4" />
+            <Highlighter className="h-4 w-4 hidden sm:block" />
             Preview Highlight
           </button>
         </div>
