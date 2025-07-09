@@ -1,69 +1,91 @@
-# React + TypeScript + Vite
+# ⚖️ Legal AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A GenAI-powered legal assistant that provides AI-generated legal answers, links to relevant Indian legal citations, and enhances access to legal knowledge with conversational UX.
 
-Currently, two official plugins are available:
+> 🚀 [Live App](https://legal-ai-assistant-beige.vercel.app) • [Source Code](https://github.com/amit-prajapati-ap/Legal-AI-Assistant)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screen Recording
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Legal AI Assistant Screen recording](https://github.com/amit-prajapati-ap/Legal-AI-Assistant/assets/preview.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*Screen Recording: Sample response with linked citation references.*
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ How to Run the Project Locally
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/amit-prajapati-ap/Legal-AI-Assistant.git
+cd Legal-AI-Assistant
+```
+2. **Install Dependencies**
+
+```bash
+npm install
+```
+3. **Start the Dev Server**
+
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔗 How Citation Linking Works
+The app utilizes a simple yet effective approach to legal citation linking:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. **Each AI-generated answer is processed with embedded citation references (e.g., Section 164 of the Motor Vehicles Act, 1988).**
+2. **These references are matched with a citation metadata structure (like { text: "...", pdfLink: "..." }) stored in the backend or fetched from APIs.**
+3. **Citations are dynamically rendered at the bottom of the response card, linking to verified sources such as IndianKanoon.**
+4. **This ensures traceability and transparency in AI-generated legal opinions.**
+
+5. **Example Output:**
+
 ```
+{
+  "answer": "Yes, under Section 164 of the Motor Vehicles Act, 1988, the family of a deceased minor is entitled to compensation.",
+  "citation": {
+    "text": "The absence of a driving licence does not bar compensation under MV Act.",
+    "pdfLink": "https://indiankanoon.org/doc/1234567/"
+  }
+}
+```
+
+## 📦 Tech Stack
+
+| Category       | Tech Used                     |
+| -------------- | ----------------------------- |
+| Frontend       | React 19 + Vite               |
+| Styling        | Tailwind CSS                  |
+| Icons          | Lucide React                  |
+| Toasts         | react-toastify                |
+| State & Flow   | Functional Components + Props |
+| Linting        | ESLint + React Hooks Plugin   |
+| Dev Experience | TypeScript, Vite, Previews    |
+
+## 📦 Project Structure
+
+```Legal-AI-Assistant/
+│
+├── src/
+│   ├── components/         # Reusable UI Components
+│   ├── pages/              # Main views/screens
+│   ├── assets/             # Application assets
+│   ├── App.tsx             # Helper functions
+│   └── main.tsx            # App entry point
+│   └── index.css           # Global CSS file
+│
+├── .gitignore              # Git ignore file
+├── index.html              # Index file
+├── README.md               # Readme file
+├── packege-lock.json       
+├── package.json            # Packege file
+├── tsconfig.json           # TypeScript config
+└── vite.config.ts          # Vite bundler config
+```
+
+Made with ❤️ by Amit Prajapati – Empowering India with accessible legal AI.
