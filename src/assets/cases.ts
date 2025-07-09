@@ -238,12 +238,12 @@ const cases: Record<string, ApiResponse> = {
     - For faster help, try rephrasing your query with specific terms (e.g., "tenant eviction", "cyber fraud", "anticipatory bail")`,
 
     citation: {
-      text: "Legal remedies vary significantly based on the context of the dispute. General legal awareness can guide next steps, but jurisdiction-specific advice is key.",
-      pdfLink: "https://indiankanoon.org/doc/general/",
+      text: "",
+      pdfLink: "",
       scrollToHighlight: false,
-      caseTitle: "General Motor Vehicle Accident Principles",
-      court: "Various High Courts",
-      date: "Multiple Judgments"
+      caseTitle: "",
+      court: "",
+      date: ""
     }
   }
 
